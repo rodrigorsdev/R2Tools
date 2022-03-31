@@ -1,0 +1,197 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculation", "Calculation", "{C9668C32-7814-4A4D-A587-23ED38EDCE5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R2.Tools.Calculation", "src\R2.Tools.Calculation\R2.Tools.Calculation.csproj", "{624D7B80-6ABE-491F-8755-9F754A5B7037}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Date", "Date", "{0C788952-70C0-4117-B944-ECBF35490DE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{88FFE6CB-1090-4E20-8AF2-1867CA4EAEAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log", "Log", "{847A5FA7-7381-4E4F-8E89-9EC9FB2CCB47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mask", "Mask", "{EA055471-72D9-4522-A703-F62DA4D70E11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{4267157E-E6C3-4616-BC56-26FB6F338337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validation", "Validation", "{B76D86D0-B87A-4BA5-ACDD-6C889817A3B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R2.Tools.Validation.Test", "test\R2.Tools.Validation.Test\R2.Tools.Validation.Test.csproj", "{29375472-660E-481E-A19E-B7875B3F9BCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R2.Tools.Calculation.Test", "test\R2.Tools.Calculation.Test\R2.Tools.Calculation.Test.csproj", "{9FD6D344-D0B1-4BEB-859B-FC41D7E63EA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R2.Tools.Validation", "src\R2.Tools.Validation\R2.Tools.Validation.csproj", "{611FA94B-8D76-416B-A681-B3E5C4EB2653}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notification", "{F8B16309-16BD-4BCF-AE03-06105B1670D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Tools.Notification", "src\R2.Tools.Notification\R2.Tools.Notification.csproj", "{E7A826BE-A6C8-4F21-B2C6-52EF2AFA817E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Tools.Notification.Test", "test\R2.Tools.Notification.Test\R2.Tools.Notification.Test.csproj", "{9B2E4921-2465-4095-93E4-1B40C07E0490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Tools.Report", "src\R2.Tools.Report\R2.Tools.Report.csproj", "{DD217E83-EA00-4654-B621-532BAF2B9670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Tools.Report.Test", "test\R2.Tools.Report.Test\R2.Tools.Report.Test.csproj", "{6C2DF547-FDCF-4E89-8DAE-866AB65984AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Tools.Mask.Test", "test\R2.Tools.Mask.Test\R2.Tools.Mask.Test.csproj", "{E8B8B533-02C5-41B0-8078-87C1C31F3154}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R2.Tools.Mask", "src\R2.Tools.Mask\R2.Tools.Mask.csproj", "{6C652117-4B79-4913-BF55-E9AE8F9D4240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Tools.Date", "src\R2.Tools.Date\R2.Tools.Date.csproj", "{AEC36437-321F-4393-806A-B607BDDFC2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Tools.Date.Test", "test\R2.Tools.Date.Test\R2.Tools.Date.Test.csproj", "{908C877D-6C2F-4EF2-8BD0-0C86A3426510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Tools.Log", "src\R2.Tools.Log\R2.Tools.Log.csproj", "{7CF4CC3B-96FD-4106-9D30-D396513006D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Tools.Log.Test", "test\R2.Tools.Log.Test\R2.Tools.Log.Test.csproj", "{99D48F6D-3338-42A8-98D3-A3D0AB5E9BB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{624D7B80-6ABE-491F-8755-9F754A5B7037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624D7B80-6ABE-491F-8755-9F754A5B7037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624D7B80-6ABE-491F-8755-9F754A5B7037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624D7B80-6ABE-491F-8755-9F754A5B7037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29375472-660E-481E-A19E-B7875B3F9BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29375472-660E-481E-A19E-B7875B3F9BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29375472-660E-481E-A19E-B7875B3F9BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29375472-660E-481E-A19E-B7875B3F9BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD6D344-D0B1-4BEB-859B-FC41D7E63EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD6D344-D0B1-4BEB-859B-FC41D7E63EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD6D344-D0B1-4BEB-859B-FC41D7E63EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD6D344-D0B1-4BEB-859B-FC41D7E63EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611FA94B-8D76-416B-A681-B3E5C4EB2653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611FA94B-8D76-416B-A681-B3E5C4EB2653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611FA94B-8D76-416B-A681-B3E5C4EB2653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611FA94B-8D76-416B-A681-B3E5C4EB2653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A826BE-A6C8-4F21-B2C6-52EF2AFA817E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A826BE-A6C8-4F21-B2C6-52EF2AFA817E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A826BE-A6C8-4F21-B2C6-52EF2AFA817E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A826BE-A6C8-4F21-B2C6-52EF2AFA817E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2E4921-2465-4095-93E4-1B40C07E0490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2E4921-2465-4095-93E4-1B40C07E0490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2E4921-2465-4095-93E4-1B40C07E0490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2E4921-2465-4095-93E4-1B40C07E0490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD217E83-EA00-4654-B621-532BAF2B9670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD217E83-EA00-4654-B621-532BAF2B9670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD217E83-EA00-4654-B621-532BAF2B9670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD217E83-EA00-4654-B621-532BAF2B9670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2DF547-FDCF-4E89-8DAE-866AB65984AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2DF547-FDCF-4E89-8DAE-866AB65984AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2DF547-FDCF-4E89-8DAE-866AB65984AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2DF547-FDCF-4E89-8DAE-866AB65984AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B8B533-02C5-41B0-8078-87C1C31F3154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B8B533-02C5-41B0-8078-87C1C31F3154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B8B533-02C5-41B0-8078-87C1C31F3154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B8B533-02C5-41B0-8078-87C1C31F3154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C652117-4B79-4913-BF55-E9AE8F9D4240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C652117-4B79-4913-BF55-E9AE8F9D4240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C652117-4B79-4913-BF55-E9AE8F9D4240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C652117-4B79-4913-BF55-E9AE8F9D4240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC36437-321F-4393-806A-B607BDDFC2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC36437-321F-4393-806A-B607BDDFC2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC36437-321F-4393-806A-B607BDDFC2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC36437-321F-4393-806A-B607BDDFC2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908C877D-6C2F-4EF2-8BD0-0C86A3426510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908C877D-6C2F-4EF2-8BD0-0C86A3426510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908C877D-6C2F-4EF2-8BD0-0C86A3426510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908C877D-6C2F-4EF2-8BD0-0C86A3426510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF4CC3B-96FD-4106-9D30-D396513006D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF4CC3B-96FD-4106-9D30-D396513006D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF4CC3B-96FD-4106-9D30-D396513006D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF4CC3B-96FD-4106-9D30-D396513006D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D48F6D-3338-42A8-98D3-A3D0AB5E9BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D48F6D-3338-42A8-98D3-A3D0AB5E9BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D48F6D-3338-42A8-98D3-A3D0AB5E9BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D48F6D-3338-42A8-98D3-A3D0AB5E9BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{624D7B80-6ABE-491F-8755-9F754A5B7037} = {C9668C32-7814-4A4D-A587-23ED38EDCE5F}
+		{29375472-660E-481E-A19E-B7875B3F9BCF} = {B76D86D0-B87A-4BA5-ACDD-6C889817A3B4}
+		{9FD6D344-D0B1-4BEB-859B-FC41D7E63EA0} = {C9668C32-7814-4A4D-A587-23ED38EDCE5F}
+		{611FA94B-8D76-416B-A681-B3E5C4EB2653} = {B76D86D0-B87A-4BA5-ACDD-6C889817A3B4}
+		{E7A826BE-A6C8-4F21-B2C6-52EF2AFA817E} = {F8B16309-16BD-4BCF-AE03-06105B1670D7}
+		{9B2E4921-2465-4095-93E4-1B40C07E0490} = {F8B16309-16BD-4BCF-AE03-06105B1670D7}
+		{DD217E83-EA00-4654-B621-532BAF2B9670} = {4267157E-E6C3-4616-BC56-26FB6F338337}
+		{6C2DF547-FDCF-4E89-8DAE-866AB65984AD} = {4267157E-E6C3-4616-BC56-26FB6F338337}
+		{E8B8B533-02C5-41B0-8078-87C1C31F3154} = {EA055471-72D9-4522-A703-F62DA4D70E11}
+		{6C652117-4B79-4913-BF55-E9AE8F9D4240} = {EA055471-72D9-4522-A703-F62DA4D70E11}
+		{AEC36437-321F-4393-806A-B607BDDFC2E7} = {0C788952-70C0-4117-B944-ECBF35490DE3}
+		{908C877D-6C2F-4EF2-8BD0-0C86A3426510} = {0C788952-70C0-4117-B944-ECBF35490DE3}
+		{7CF4CC3B-96FD-4106-9D30-D396513006D4} = {847A5FA7-7381-4E4F-8E89-9EC9FB2CCB47}
+		{99D48F6D-3338-42A8-98D3-A3D0AB5E9BB3} = {847A5FA7-7381-4E4F-8E89-9EC9FB2CCB47}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {317610E5-A1E7-45DA-B7DB-29113BDA35F0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://r2development.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\R2.Tools.Calculation\\R2.Tools.Calculation.csproj
+		SccProjectTopLevelParentUniqueName1 = R2Tools.sln
+		SccProjectName1 = src/R2.Tools.Calculation
+		SccLocalPath1 = src\\R2.Tools.Calculation
+		SccProjectUniqueName2 = test\\R2.Tools.Validation.Test\\R2.Tools.Validation.Test.csproj
+		SccProjectTopLevelParentUniqueName2 = R2Tools.sln
+		SccProjectName2 = test/R2.Tools.Validation.Test
+		SccLocalPath2 = test\\R2.Tools.Validation.Test
+		SccProjectUniqueName3 = test\\R2.Tools.Calculation.Test\\R2.Tools.Calculation.Test.csproj
+		SccProjectTopLevelParentUniqueName3 = R2Tools.sln
+		SccProjectName3 = test/R2.Tools.Calculation.Test
+		SccLocalPath3 = test\\R2.Tools.Calculation.Test
+		SccProjectUniqueName4 = src\\R2.Tools.Validation\\R2.Tools.Validation.csproj
+		SccProjectTopLevelParentUniqueName4 = R2Tools.sln
+		SccProjectName4 = src/R2.Tools.Validation
+		SccLocalPath4 = src\\R2.Tools.Validation
+		SccProjectUniqueName5 = src\\R2.Tools.Notification\\R2.Tools.Notification.csproj
+		SccProjectTopLevelParentUniqueName5 = R2Tools.sln
+		SccProjectName5 = src/R2.Tools.Notification
+		SccLocalPath5 = src\\R2.Tools.Notification
+		SccProjectUniqueName6 = test\\R2.Tools.Notification.Test\\R2.Tools.Notification.Test.csproj
+		SccProjectTopLevelParentUniqueName6 = R2Tools.sln
+		SccProjectName6 = test/R2.Tools.Notification.Test
+		SccLocalPath6 = test\\R2.Tools.Notification.Test
+		SccProjectUniqueName7 = src\\R2.Tools.Report\\R2.Tools.Report.csproj
+		SccProjectTopLevelParentUniqueName7 = R2Tools.sln
+		SccProjectName7 = src/R2.Tools.Report
+		SccLocalPath7 = src\\R2.Tools.Report
+		SccProjectUniqueName8 = test\\R2.Tools.Report.Test\\R2.Tools.Report.Test.csproj
+		SccProjectTopLevelParentUniqueName8 = R2Tools.sln
+		SccProjectName8 = test/R2.Tools.Report.Test
+		SccLocalPath8 = test\\R2.Tools.Report.Test
+		SccProjectUniqueName9 = test\\R2.Tools.Mask.Test\\R2.Tools.Mask.Test.csproj
+		SccProjectTopLevelParentUniqueName9 = R2Tools.sln
+		SccProjectName9 = test/R2.Tools.Mask.Test
+		SccLocalPath9 = test\\R2.Tools.Mask.Test
+		SccProjectUniqueName10 = src\\R2.Tools.Mask\\R2.Tools.Mask.csproj
+		SccProjectTopLevelParentUniqueName10 = R2Tools.sln
+		SccProjectName10 = src/R2.Tools.Mask
+		SccLocalPath10 = src\\R2.Tools.Mask
+		SccProjectUniqueName11 = src\\R2.Tools.Date\\R2.Tools.Date.csproj
+		SccProjectTopLevelParentUniqueName11 = R2Tools.sln
+		SccProjectName11 = src/R2.Tools.Date
+		SccLocalPath11 = src\\R2.Tools.Date
+		SccProjectUniqueName12 = test\\R2.Tools.Date.Test\\R2.Tools.Date.Test.csproj
+		SccProjectTopLevelParentUniqueName12 = R2Tools.sln
+		SccProjectName12 = test/R2.Tools.Date.Test
+		SccLocalPath12 = test\\R2.Tools.Date.Test
+		SccProjectUniqueName13 = src\\R2.Tools.Log\\R2.Tools.Log.csproj
+		SccProjectTopLevelParentUniqueName13 = R2Tools.sln
+		SccProjectName13 = src/R2.Tools.Log
+		SccLocalPath13 = src\\R2.Tools.Log
+		SccProjectUniqueName14 = test\\R2.Tools.Log.Test\\R2.Tools.Log.Test.csproj
+		SccProjectTopLevelParentUniqueName14 = R2Tools.sln
+		SccProjectName14 = test/R2.Tools.Log.Test
+		SccLocalPath14 = test\\R2.Tools.Log.Test
+	EndGlobalSection
+EndGlobal
